@@ -31,28 +31,40 @@ const navigation = [
 
 const skillGroups = [
   {
-    icon: BrainCircuit,
-    title: "Machine Learning & AI",
-    note: "Build, evaluate, and explain models.",
-    skills: ["Scikit-learn", "XGBoost", "Model evaluation", "Feature engineering", "SHAP"],
+    icon: Code2,
+    title: "Programming & Querying",
+    note: "Languages for data work and software.",
+    skills: ["Python", "SQL", "JavaScript", "Java", "C", "PHP"],
   },
   {
     icon: ChartNoAxesCombined,
     title: "Data Science & Analytics",
-    note: "Turn raw data into clear insights.",
-    skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Power BI", "Time series"],
+    note: "Explore data and communicate findings.",
+    skills: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly", "Power BI", "EDA", "Data visualization"],
+  },
+  {
+    icon: BrainCircuit,
+    title: "Machine Learning & AI",
+    note: "Train, compare, and interpret models.",
+    skills: ["Scikit-learn", "XGBoost", "Random Forest", "Logistic Regression", "Classification", "Regression", "Feature engineering", "Cross-validation", "Model evaluation", "SHAP", "Anomaly detection"],
+  },
+  {
+    icon: TrendingUp,
+    title: "Forecasting & Time Series",
+    note: "Model trends and evaluate forecasts.",
+    skills: ["SARIMA", "Seasonal Naive", "Random Forest Forecasting", "Time-series analysis", "Seasonality", "Train/test validation", "MAE & RMSE", "MAPE & WAPE"],
   },
   {
     icon: Database,
-    title: "Data Engineering",
-    note: "Create reliable data workflows.",
-    skills: ["SQL", "PostgreSQL", "ETL pipelines", "Data cleaning", "Prefect"],
+    title: "Data Engineering & Databases",
+    note: "Build repeatable data workflows.",
+    skills: ["PostgreSQL", "SQLAlchemy", "ETL pipelines", "REST APIs", "Prefect", "Data cleaning", "Data validation", "CSV / Excel processing", "SQL queries"],
   },
   {
-    icon: Code2,
+    icon: Terminal,
     title: "Development & Tools",
-    note: "Ship usable, maintainable projects.",
-    skills: ["Git & GitHub", "Streamlit", "Flask", "HTML & CSS", "JavaScript", "React"],
+    note: "Build, test, and share applications.",
+    skills: ["Streamlit", "Flask", "React", "Vite", "Node.js", "Next.js", "HTML & CSS", "Git & GitHub", "Jupyter Notebook", "VS Code", "MLflow"],
   },
 ];
 
@@ -276,9 +288,9 @@ function App() {
         <section className="skills-section" id="skills">
           <div className="section-wrap">
             <SectionHeading
-              eyebrow="TOOLS I WORK WITH"
-              title={<>A practical <span className="heading-accent">skill set.</span></>}
-              description="The technologies and methods I use to explore data, build models, and turn ideas into working projects."
+              eyebrow="TECH STACK & METHODS"
+              title={<>Tools for <span className="heading-accent">real-world work.</span></>}
+              description="Libraries, platforms, and methods used across my data science, forecasting, and software projects. I keep expanding this toolkit as I learn."
               align="center"
             />
             <div className="skills-grid">
