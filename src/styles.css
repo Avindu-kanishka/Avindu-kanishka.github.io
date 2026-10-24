@@ -266,7 +266,7 @@ img { max-width: 100%; display: block; }
 .panel-bottom-line span { width: 23px; height: 2px; border-radius: 5px; background: #2b68e8; }
 
 .skills-section { padding: 104px 0 112px; border-top: 1px solid #e7ecf3; border-bottom: 1px solid #e7ecf3; background: #f0f4fa; }
-.skills-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 44px; }
+.skills-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 44px; }
 .skill-card { min-height: 248px; padding: 23px 20px 22px; border: 1px solid #e2e8f1; border-radius: 15px; background: rgba(255,255,255,0.88); transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease; }
 .skill-card:hover { transform: translateY(-4px); border-color: #cbd9f1; box-shadow: 0 13px 30px rgba(35, 54, 82, 0.07); }
 .skill-card-top { display: flex; align-items: center; justify-content: space-between; }
